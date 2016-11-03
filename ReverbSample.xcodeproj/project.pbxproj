@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322ACECF1DCADE5700612F73 /* Valkyries.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 322ACECE1DCADE5700612F73 /* Valkyries.m4a */; };
 		323636B71DCAC41B00C45DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323636B61DCAC41B00C45DB7 /* AppDelegate.swift */; };
 		323636B91DCAC41B00C45DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323636B81DCAC41B00C45DB7 /* ViewController.swift */; };
 		323636BC1DCAC41B00C45DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323636BA1DCAC41B00C45DB7 /* Main.storyboard */; };
 		323636BE1DCAC41B00C45DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323636BD1DCAC41B00C45DB7 /* Assets.xcassets */; };
 		323636C11DCAC41B00C45DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323636BF1DCAC41B00C45DB7 /* LaunchScreen.storyboard */; };
+		32B5D7AF1DCAC5FC00C4C575 /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B5D7AD1DCAC5FC00C4C575 /* Play@2x.png */; };
+		32B5D7B01DCAC5FC00C4C575 /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B5D7AE1DCAC5FC00C4C575 /* Stop@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322ACECE1DCADE5700612F73 /* Valkyries.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Valkyries.m4a; sourceTree = "<group>"; };
 		323636B31DCAC41B00C45DB7 /* ReverbSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverbSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323636B61DCAC41B00C45DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		323636B81DCAC41B00C45DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		323636BD1DCAC41B00C45DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323636C01DCAC41B00C45DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323636C21DCAC41B00C45DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B5D7AD1DCAC5FC00C4C575 /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		32B5D7AE1DCAC5FC00C4C575 /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		323636B51DCAC41B00C45DB7 /* ReverbSample */ = {
 			isa = PBXGroup;
 			children = (
+				32B5D7B11DCAC60000C4C575 /* Images */,
 				323636B61DCAC41B00C45DB7 /* AppDelegate.swift */,
 				323636B81DCAC41B00C45DB7 /* ViewController.swift */,
+				322ACECE1DCADE5700612F73 /* Valkyries.m4a */,
 				323636BA1DCAC41B00C45DB7 /* Main.storyboard */,
 				323636BD1DCAC41B00C45DB7 /* Assets.xcassets */,
 				323636BF1DCAC41B00C45DB7 /* LaunchScreen.storyboard */,
 				323636C21DCAC41B00C45DB7 /* Info.plist */,
 			);
 			path = ReverbSample;
+			sourceTree = "<group>";
+		};
+		32B5D7B11DCAC60000C4C575 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32B5D7AD1DCAC5FC00C4C575 /* Play@2x.png */,
+				32B5D7AE1DCAC5FC00C4C575 /* Stop@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +142,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				323636C11DCAC41B00C45DB7 /* LaunchScreen.storyboard in Resources */,
+				322ACECF1DCADE5700612F73 /* Valkyries.m4a in Resources */,
 				323636BE1DCAC41B00C45DB7 /* Assets.xcassets in Resources */,
+				32B5D7AF1DCAC5FC00C4C575 /* Play@2x.png in Resources */,
 				323636BC1DCAC41B00C45DB7 /* Main.storyboard in Resources */,
+				32B5D7B01DCAC5FC00C4C575 /* Stop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +320,7 @@
 				323636C71DCAC41B00C45DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
